@@ -1,6 +1,7 @@
 <?php
+
 /**
- * @description :the log
+ * @description :base of all controller
  * @author      :23c<phpcool@163.com>
  * @datetime    :2016-11-05
  */

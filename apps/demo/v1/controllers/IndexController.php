@@ -16,7 +16,7 @@ class IndexController extends ControllerBase
 	{
         $suppliers = \Suppliers::instance()->getCompanyList();
 		if ($suppliers) {
-			$this->msg = 'Suppliers->getCompanyList: ' . $this->json_out($suppliers);
+			$this->msg = 'Suppliers->getCompanyList: ' . json_encode($suppliers, JSON_UNESCAPED_UNICODE);
 		} else {
 			$this->msg = 'This is v1 getMessage';
 		}
