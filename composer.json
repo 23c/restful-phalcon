@@ -1,0 +1,14 @@
+{
+    "name": "23c/restful_phalcon",
+    "description": "A RESTFul webservice made with Phalcon PHP framework, mutil module support",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "23c",
+            "email": "phpcool@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
